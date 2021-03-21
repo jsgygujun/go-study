@@ -18,7 +18,7 @@ func main() {
 
 	fmt.Println("map:", m)
 
-	_, prs := m["k2"]
+	_, prs := m["k2"] // 判断 map 中是否含有指定的key
 	fmt.Println("prs:", prs)
 
 	n := map[string]int{"foo": 1, "bar": 2}

@@ -10,7 +10,7 @@ func main() {
 	}
 	fmt.Println("sum:", sum)
 
-	for i, num := range nums {
+	for i, num := range nums { // 数组的range返回的第一个是元素的下标，第二个是元素的值
 		if num == 3 {
 			fmt.Println("index:", i)
 		}
